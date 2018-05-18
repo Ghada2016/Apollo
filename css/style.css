@@ -1,0 +1,144 @@
+/*start global style*/
+h3{
+	font-weight: 100
+}
+h3 span{
+	font-weight: bold
+}
+/*end global style*/
+/*start section home*/
+.home{
+    background-color: #efefef;
+    overflow: hidden;
+}
+/*end section home*/
+
+/*start navbar*/
+.navbar .nav-item a{
+	color:#8c8c8c;
+	
+}
+.navbar .nav-item:hover a{
+	color: #bfbfbf
+}
+/*end navbar*/
+
+/*start row col*/
+.home .row .col:nth-child(2){
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/*end row col*/
+
+/*start About section*/
+.about{
+    background-color: #efefef;
+    min-height: 460px;
+}
+.about img{
+	width: 500px;
+	height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.about .s-link li:hover{
+	color: #3377ff;
+}
+/*end About section*/
+
+/*start portfolio1*/
+.portfolio1{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+.portfolio1 a span{
+    background-color: #333;
+
+}
+/*end portfolio1*/
+
+/*start portfolio2*/
+.portfolio2{
+    background-color: #efefef;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+/*end portfolio2*/
+
+/*start portfolio3*/
+.portfolio3{
+	background-color: #efefef;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	height: 510px
+}
+.portfolio3 img{
+	width:350px;
+	height: 300px
+}
+/*end portfolio3*/
+
+/*start contact*/
+.contact{
+	background-color: #efefef;
+	min-height: 550px
+}
+.contact p{
+	margin: auto;
+	width: 80%
+}
+.contact form input[type="text"]{
+	width: 25%
+}
+
+.contact form textarea{
+	width: 50%;
+	height: 80px
+}
+.contact form input[type = "button"]{
+	width: 50%
+}
+/*end contact*/
+
+
+/* start My Own framework*/
+.background-watermark{
+    z-index: 0;
+    background-color: #efefef;
+}
+
+.content{
+  
+    z-index: 1
+}
+.bg-text {
+    color: #e3e3e3;
+    font-size: 650px;
+    line-height:.59;
+    
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	.portfolio2 .bg-text{
+		font-size:400px
+	}
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
